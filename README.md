@@ -22,7 +22,7 @@ php artisan serve
 
 ## Primeiras ações
 
-- Criei os models e as migrations de users e posts com seus respectivos campos (uuid, username, password e etc).
+- Criei os models e as migrations de posts e users com seus respectivos campos (uuid, username, password e etc).
 
 - Ajustei os models de acordo com as necessidades de suas informações.
 

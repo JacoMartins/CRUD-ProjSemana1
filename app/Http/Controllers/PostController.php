@@ -19,7 +19,7 @@ class PostController extends Controller {
       'title' => $request->title,
       'content' => $request->content,
       'updated_at' => date(now()),
-      'who_posted' => 'admin'
+      'who_posted' => 'default'
     ]);
 
     return redirect()
@@ -67,7 +67,7 @@ class PostController extends Controller {
       'title' => $request->title,
       'content' => $request->content,
       'updated_at' => date(now()),
-      'who_posted' => 'admin'
+      'who_posted' => 'default'
     ]);
 
     return redirect()
