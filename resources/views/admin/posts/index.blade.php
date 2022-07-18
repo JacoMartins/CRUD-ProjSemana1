@@ -143,6 +143,7 @@
       @endforeach
       <form action="{{ route('posts.create')}}" method="post" class="form">
         <input type="hidden" value="{{ csrf_token() }}" name="_token" />
+        <a>Adicionar post</a>
         <input class="form-control" type="text" name="title" placeholder="Título da postagem" value="{{ old('title') }}" />
         <textarea class="form-control" name="content" placeholder="Conteúdo da postagem (Escreva um texto)">{{ old('content') }}</textarea>
         <button class="btn btn-primary" type="submit">Postar</button>
