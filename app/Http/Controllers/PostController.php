@@ -24,7 +24,7 @@ class PostController extends Controller {
 
     return redirect()
       ->route('posts.index')
-      ->with('message', 'Post editado com sucesso.');
+      ->with('message', 'Post criado com sucesso.');
   }
 
   public function details($id){
