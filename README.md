@@ -11,7 +11,7 @@ cd CRUD_portalemprega+
 ```
 
 ## Sincronizando com o banco de dados
-Abri um banco de dados PostgreSQL utilizando o serviço railway para hospedar gratuitamente em casa de uso para meio de estudos e desenvolvimento.
+Abri um banco de dados PostgreSQL utilizando o serviço railway para hospedar gratuitamente em caso de uso para estudos e desenvolvimento.
 
 Logo após sincronizei com a aplicação por meio das variáveis de ambiente.
 
