@@ -1,5 +1,5 @@
 # Iniciando projeto
-- Um projeto simples de posts com Laravel 8.
+- Um projeto simples de CRUD com Laravel 8.
 
 ## Utilizo o VS Code.
 - Versão do PHP: 8.1.8
